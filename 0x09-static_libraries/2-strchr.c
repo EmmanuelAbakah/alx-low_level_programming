@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+
 /**
  * _strchr - Entry point
  * @s: input
@@ -16,6 +18,5 @@ char *_strchr(char *s, char c)
 	}
 	return (0);
 }
-
 
 
